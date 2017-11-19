@@ -7,7 +7,7 @@ var BlenoCharacteristic = bleno.Characteristic;
 var WifiConfigCharacteristic = function() {
 
     WifiConfigCharacteristic.super_.call(this, {
-    uuid: 'ff51b30e-d7e2-4d93-8842-a7c4a57dfb09',
+    uuid: '7EF8C29B-6C63-4E0A-B09F-4173A1ACA7B6',
     properties: ['read', 'write'],
   });
 
