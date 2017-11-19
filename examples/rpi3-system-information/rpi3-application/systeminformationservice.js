@@ -4,7 +4,7 @@ var util = require('util');
 var LoadAverageCharacteristic = require('./characteristics/loadaverage');
 var UptimeCharacteristic = require('./characteristics/uptime');
 var MemoryCharacteristic = require('./characteristics/memory');
-var WIFIConfig = require('./characteristics/wifi')
+var WifiConfigCharacteristic = require('./characteristics/wifi')
 function SystemInformationService() {
 
   bleno.PrimaryService.call(this, {
