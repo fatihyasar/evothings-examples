@@ -36,7 +36,7 @@ WifiConfigCharacteristic.prototype.onWriteRequest = function(data, offset, witho
     callback(this.RESULT_INVALID_ATTRIBUTE_LENGTH);
   }
   else {
-    console.log('onWriteRequest : ' + data);
+    console.log('EchoCharacteristic - onWriteRequest: value = ' + data.toString('hex'));
   }
 };
 
