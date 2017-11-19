@@ -29,6 +29,7 @@ WifiConfigCharacteristic.prototype.onReadRequest = function(offset, callback) {
 };
 
 WifiConfigCharacteristic.prototype.onWriteRequest = function(data, offset, withoutResponse, callback) {
+  this._value = data;
   if (offset) {
     callback(this.RESULT_ATTR_NOT_LONG);
   }
@@ -36,8 +37,10 @@ WifiConfigCharacteristic.prototype.onWriteRequest = function(data, offset, witho
     callback(this.RESULT_INVALID_ATTRIBUTE_LENGTH);
   }
   else {
-    console.log('EchoCharacteristic - onWriteRequest: value = ' + data.toString('hex'));
+    console.log('WifiConfigCharacteristic - onWriteRequest: value = ' + this._value.toString('hex'));
   }
+  
+  callback(this.RESULT_SUCCESS);
 };
 
 util.inherits(WifiConfigCharacteristic, BlenoCharacteristic);
