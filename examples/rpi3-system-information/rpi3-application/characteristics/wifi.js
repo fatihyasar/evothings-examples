@@ -17,7 +17,7 @@ var WifiConfigCharacteristic = function() {
 WifiConfigCharacteristic.prototype.onReadRequest = function(offset, callback) {
   if(!offset) {
     this._value = new Buffer(JSON.stringify({
-      'uptime' : os.uptime()
+      'wifi' : '->'
     }));
   }
 
@@ -33,13 +33,10 @@ WifiConfigCharacteristic.prototype.onWriteRequest = function(data, offset, witho
   if (offset) {
     callback(this.RESULT_ATTR_NOT_LONG);
   }
-  else if (data.length !== 1) {
-    callback(this.RESULT_INVALID_ATTRIBUTE_LENGTH);
-  }
   else {
     console.log('WifiConfigCharacteristic - onWriteRequest: value = ' + this._value.toString('hex'));
   }
-  
+
   callback(this.RESULT_SUCCESS);
 };
 
