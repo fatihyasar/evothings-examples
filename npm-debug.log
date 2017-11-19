@@ -1,0 +1,234 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose config Skipping project config: /Users/fyasar/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly loadIdealTree Finishing
+22 silly currentTree fyasar
+22 silly currentTree ├── ansi-regex@2.1.1
+22 silly currentTree ├── aproba@1.1.1
+22 silly currentTree ├── are-we-there-yet@1.1.4
+22 silly currentTree ├── bl@1.2.1
+22 silly currentTree ├── buffer-shims@1.0.0
+22 silly currentTree ├── chownr@1.0.1
+22 silly currentTree ├── code-point-at@1.1.0
+22 silly currentTree ├── console-control-strings@1.1.0
+22 silly currentTree ├── core-util-is@1.0.2
+22 silly currentTree ├── deep-extend@0.4.2
+22 silly currentTree ├── delegates@1.0.0
+22 silly currentTree ├── end-of-stream@1.4.0
+22 silly currentTree ├── expand-template@1.0.3
+22 silly currentTree ├─┬ firebase@4.1.3
+22 silly currentTree │ ├── base64url@2.0.0
+22 silly currentTree │ ├── buffer-equal-constant-time@1.0.1
+22 silly currentTree │ ├── dom-storage@2.0.2
+22 silly currentTree │ ├── ecdsa-sig-formatter@1.0.9
+22 silly currentTree │ ├── faye-websocket@0.9.3
+22 silly currentTree │ ├── hoek@2.16.3
+22 silly currentTree │ ├── isemail@1.2.0
+22 silly currentTree │ ├── joi@6.10.1
+22 silly currentTree │ ├── jsonwebtoken@7.4.1
+22 silly currentTree │ ├── jwa@1.1.5
+22 silly currentTree │ ├── jws@3.1.4
+22 silly currentTree │ ├── lodash.once@4.1.1
+22 silly currentTree │ ├── moment@2.18.1
+22 silly currentTree │ ├── ms@2.0.0
+22 silly currentTree │ ├── promise-polyfill@6.0.2
+22 silly currentTree │ ├── safe-buffer@5.1.0
+22 silly currentTree │ ├── topo@1.1.0
+22 silly currentTree │ ├── websocket-driver@0.6.5
+22 silly currentTree │ ├── websocket-extensions@0.1.1
+22 silly currentTree │ ├── xmlhttprequest@1.8.0
+22 silly currentTree │ └── xtend@4.0.1
+22 silly currentTree ├── gauge@2.7.4
+22 silly currentTree ├── github-from-package@0.0.0
+22 silly currentTree ├── has-unicode@2.0.1
+22 silly currentTree ├── inherits@2.0.3
+22 silly currentTree ├── ini@1.3.4
+22 silly currentTree ├── is-fullwidth-code-point@1.0.0
+22 silly currentTree ├── isarray@1.0.0
+22 silly currentTree ├── minimist@1.2.0
+22 silly currentTree ├─┬ mkdirp@0.5.1
+22 silly currentTree │ └── minimist@0.0.8
+22 silly currentTree ├── nan@2.6.2
+22 silly currentTree ├── node-abi@2.0.2
+22 silly currentTree ├── noop-logger@0.1.1
+22 silly currentTree ├── npmlog@4.1.0
+22 silly currentTree ├── number-is-nan@1.0.1
+22 silly currentTree ├── object-assign@4.1.1
+22 silly currentTree ├── once@1.4.0
+22 silly currentTree ├── os-homedir@1.0.2
+22 silly currentTree ├── prebuild-install@2.1.2
+22 silly currentTree ├── process-nextick-args@1.0.7
+22 silly currentTree ├── pump@1.0.2
+22 silly currentTree ├── rc@1.2.1
+22 silly currentTree ├── readable-stream@2.2.9
+22 silly currentTree ├── robotjs@0.4.7
+22 silly currentTree ├── safe-buffer@5.0.1
+22 silly currentTree ├── set-blocking@2.0.0
+22 silly currentTree ├── signal-exit@3.0.2
+22 silly currentTree ├── simple-get@1.4.3
+22 silly currentTree ├── string_decoder@1.0.1
+22 silly currentTree ├── string-width@1.0.2
+22 silly currentTree ├── strip-ansi@3.0.1
+22 silly currentTree ├── strip-json-comments@2.0.1
+22 silly currentTree ├── tar-fs@1.15.2
+22 silly currentTree ├── tar-stream@1.5.4
+22 silly currentTree ├── tunnel-agent@0.4.3
+22 silly currentTree ├── unzip-response@1.0.2
+22 silly currentTree ├── util-deprecate@1.0.2
+22 silly currentTree ├── vue@2.4.1
+22 silly currentTree ├── wide-align@1.1.2
+22 silly currentTree ├── wrappy@1.0.2
+22 silly currentTree └── xtend@4.0.1
+23 silly idealTree fyasar
+23 silly idealTree ├── ansi-regex@2.1.1
+23 silly idealTree ├── aproba@1.1.1
+23 silly idealTree ├── are-we-there-yet@1.1.4
+23 silly idealTree ├── bl@1.2.1
+23 silly idealTree ├── buffer-shims@1.0.0
+23 silly idealTree ├── chownr@1.0.1
+23 silly idealTree ├── code-point-at@1.1.0
+23 silly idealTree ├── console-control-strings@1.1.0
+23 silly idealTree ├── core-util-is@1.0.2
+23 silly idealTree ├── deep-extend@0.4.2
+23 silly idealTree ├── delegates@1.0.0
+23 silly idealTree ├── end-of-stream@1.4.0
+23 silly idealTree ├── expand-template@1.0.3
+23 silly idealTree ├─┬ firebase@4.1.3
+23 silly idealTree │ ├── base64url@2.0.0
+23 silly idealTree │ ├── buffer-equal-constant-time@1.0.1
+23 silly idealTree │ ├── dom-storage@2.0.2
+23 silly idealTree │ ├── ecdsa-sig-formatter@1.0.9
+23 silly idealTree │ ├── faye-websocket@0.9.3
+23 silly idealTree │ ├── hoek@2.16.3
+23 silly idealTree │ ├── isemail@1.2.0
+23 silly idealTree │ ├── joi@6.10.1
+23 silly idealTree │ ├── jsonwebtoken@7.4.1
+23 silly idealTree │ ├── jwa@1.1.5
+23 silly idealTree │ ├── jws@3.1.4
+23 silly idealTree │ ├── lodash.once@4.1.1
+23 silly idealTree │ ├── moment@2.18.1
+23 silly idealTree │ ├── ms@2.0.0
+23 silly idealTree │ ├── promise-polyfill@6.0.2
+23 silly idealTree │ ├── safe-buffer@5.1.0
+23 silly idealTree │ ├── topo@1.1.0
+23 silly idealTree │ ├── websocket-driver@0.6.5
+23 silly idealTree │ ├── websocket-extensions@0.1.1
+23 silly idealTree │ ├── xmlhttprequest@1.8.0
+23 silly idealTree │ └── xtend@4.0.1
+23 silly idealTree ├── gauge@2.7.4
+23 silly idealTree ├── github-from-package@0.0.0
+23 silly idealTree ├── has-unicode@2.0.1
+23 silly idealTree ├── inherits@2.0.3
+23 silly idealTree ├── ini@1.3.4
+23 silly idealTree ├── is-fullwidth-code-point@1.0.0
+23 silly idealTree ├── isarray@1.0.0
+23 silly idealTree ├── minimist@1.2.0
+23 silly idealTree ├─┬ mkdirp@0.5.1
+23 silly idealTree │ └── minimist@0.0.8
+23 silly idealTree ├── nan@2.6.2
+23 silly idealTree ├── node-abi@2.0.2
+23 silly idealTree ├── noop-logger@0.1.1
+23 silly idealTree ├── npmlog@4.1.0
+23 silly idealTree ├── number-is-nan@1.0.1
+23 silly idealTree ├── object-assign@4.1.1
+23 silly idealTree ├── once@1.4.0
+23 silly idealTree ├── os-homedir@1.0.2
+23 silly idealTree ├── prebuild-install@2.1.2
+23 silly idealTree ├── process-nextick-args@1.0.7
+23 silly idealTree ├── pump@1.0.2
+23 silly idealTree ├── rc@1.2.1
+23 silly idealTree ├── readable-stream@2.2.9
+23 silly idealTree ├── robotjs@0.4.7
+23 silly idealTree ├── safe-buffer@5.0.1
+23 silly idealTree ├── set-blocking@2.0.0
+23 silly idealTree ├── signal-exit@3.0.2
+23 silly idealTree ├── simple-get@1.4.3
+23 silly idealTree ├── string_decoder@1.0.1
+23 silly idealTree ├── string-width@1.0.2
+23 silly idealTree ├── strip-ansi@3.0.1
+23 silly idealTree ├── strip-json-comments@2.0.1
+23 silly idealTree ├── tar-fs@1.15.2
+23 silly idealTree ├── tar-stream@1.5.4
+23 silly idealTree ├── tunnel-agent@0.4.3
+23 silly idealTree ├── unzip-response@1.0.2
+23 silly idealTree ├── util-deprecate@1.0.2
+23 silly idealTree ├── vue@2.4.1
+23 silly idealTree ├── wide-align@1.1.2
+23 silly idealTree ├── wrappy@1.0.2
+23 silly idealTree └── xtend@4.0.1
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly runTopLevelLifecycles Starting
+30 silly install runPreinstallTopLevelLifecycles
+31 silly preinstall fyasar /Users/fyasar/fyasar-00f8443c
+32 info lifecycle undefined~preinstall: undefined
+33 silly lifecycle undefined~preinstall: no script for preinstall, continuing
+34 silly executeActions Starting
+35 silly install executeActions
+36 silly doSerial global-install 0
+37 silly doParallel fetch 0
+38 verbose correctMkdir /Users/fyasar/.npm/_locks correctMkdir not in flight; initializing
+39 verbose lock using /Users/fyasar/.npm/_locks/staging-4c7a1eb6e1d8c990.lock for /Users/fyasar/node_modules/.staging
+40 verbose unlock done using /Users/fyasar/.npm/_locks/staging-4c7a1eb6e1d8c990.lock for /Users/fyasar/node_modules/.staging
+41 silly rollbackFailedOptional Starting
+42 silly rollbackFailedOptional Finishing
+43 silly runTopLevelLifecycles Finishing
+44 silly install printInstalled
+45 warn enoent ENOENT: no such file or directory, open '/Users/fyasar/package.json'
+46 verbose enoent ENOENT: no such file or directory, open '/Users/fyasar/package.json'
+46 verbose enoent This is most likely not a problem with npm itself
+46 verbose enoent and is related to npm not being able to find a file.
+47 warn fyasar No description
+48 verbose If you need help, you may report this error at:
+48 verbose     <https://github.com/npm/npm/issues>
+49 warn fyasar No repository field.
+50 verbose If you need help, you may report this error at:
+50 verbose     <https://github.com/npm/npm/issues>
+51 warn fyasar No README data
+52 verbose If you need help, you may report this error at:
+52 verbose     <https://github.com/npm/npm/issues>
+53 warn fyasar No license field.
+54 verbose If you need help, you may report this error at:
+54 verbose     <https://github.com/npm/npm/issues>
+55 verbose stack Error: EACCES: permission denied, mkdir '/Users/fyasar/node_modules/.staging'
+55 verbose stack     at Error (native)
+56 verbose cwd /Users/fyasar/Documents/github/evothings-examples-1
+57 error Darwin 16.7.0
+58 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+59 error node v6.11.2
+60 error npm  v3.10.10
+61 error path /Users/fyasar/node_modules/.staging
+62 error code EACCES
+63 error errno -13
+64 error syscall mkdir
+65 error Error: EACCES: permission denied, mkdir '/Users/fyasar/node_modules/.staging'
+65 error     at Error (native)
+65 error  { Error: EACCES: permission denied, mkdir '/Users/fyasar/node_modules/.staging'
+65 error     at Error (native)
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   syscall: 'mkdir',
+65 error   path: '/Users/fyasar/node_modules/.staging' }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]
